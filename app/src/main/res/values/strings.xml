@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">"ToDoList"</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="change_column_name">Change column name</string>
+    <string name="delete_task">Delete task</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="task_completed">Task completed</string>
+    <string name="task_dont_completed">Task do not completed</string>
+    <string name="add_task">Add task</string>
+    <string name="add_column">Add column</string>
+    <string name="enter_column_name">Enter name…</string>
+    <string name="enter_task_name">Enter name…</string>
+    <string name="enter_task_description">Enter description…</string>
+    <string name="enter_task_date">Enter date…</string>
+
+
+    <string name="task_example_name">Acquainted with the application</string>
+    <string name="column_example_name">To do</string>
+    <string name="task_example_description">Look around :)</string>
+
+    <string name="zero_rows">0 rows</string>
+
+
+</resources>
