@@ -15,6 +15,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -72,6 +73,8 @@ public class MainActivity extends AppCompatActivity {
         getMenuInflater().inflate(R.menu.menu_column, menu);
         return true;
     }
+
+
 
     private void initTabs() {
         final ColumnsTabsFragmentAdapter adapter
@@ -147,10 +150,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getGroupId();
 
-        switch (id){
-            case 0:
+        switch (item.getItemId()){
+            case R.id.action_change:
 
                 currentColumnName = tabLayout.getTabAt(viewPager.getCurrentItem()).getText().toString();
 
@@ -199,6 +201,8 @@ public class MainActivity extends AppCompatActivity {
                 alert.show();
 
                 break;
+            case R.id.donate:
+                Toast.makeText(this, "adfasdfasdasdas", Toast.LENGTH_SHORT).show();
         }
         return super.onOptionsItemSelected(item);
     }

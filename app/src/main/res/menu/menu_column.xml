@@ -8,5 +8,11 @@
         android:title="Изменить"
         android:icon="@drawable/ic_mode_edit_white_24dp">
     </item>
+    <item
+    android:id="@+id/donate"
+    app:showAsAction="always"
+    android:title="Поддержка"
+    android:icon="@drawable/ic_money">
+</item>
 
 </menu>
